@@ -1,0 +1,24 @@
+.display-4{
+    text-align: center; 
+    margin: 0 , auto; 
+   
+}
+
+.card{
+    float: none; 
+}
+
+body{
+    background-color: green; 
+}
+
+.card-title{
+    text-align: justify; 
+}
+.gameOver{
+    text-align: center; 
+    font-size: 40px; 
+    color: red; 
+}
+
+
