@@ -46,6 +46,7 @@ function gameOver() {
 
     //grab user keys
     document.onkeyup = function (event) {
+        guessesRemaining--; 
         //gets key pushed from user
         userGuess = event.key;
         console.log(userGuess);
@@ -55,19 +56,16 @@ function gameOver() {
         console.log(guessesRemaining);
         if (guessesRemaining === 0) {
             gameOver();
-
         }
 
         secretLetter = secretLetter.toLowerCase();
         if (userGuess === secretLetter) {
             wins++;
             $(".wins-text").text(wins);
-            guessesRemaining--;
         }
         else {
             losses++;
-            guessesRemaining--;
-
+            $(".losses-text").text(losses);
         }
 
     }
