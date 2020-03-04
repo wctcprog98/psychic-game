@@ -10,4 +10,4 @@
 ### Bootstrap
 ### animate.css
 
-## Click here to play!
+## [Click here to play!](https://wctcprog98.github.io/psychic-game/)
