@@ -12,16 +12,28 @@
     margin: 0 auto; 
     font-size: 60px; 
 }
+
+#gameDiv{
+  margin-top: 100px;
+}
+.highLow{
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
 .container{
     margin: 0 auto; 
     text-align: center;
 }
+/* body{
+  background-image: url("psychic.jpg");
+} */
 .card{
-    float: none; 
+   text-align: center;
+   margin-bottom: 50px;
 }
-
-body{
-    background-color: green; 
+#app{
+  color: white;
 }
 
 #start{
@@ -38,31 +50,34 @@ body{
     font-size: 40px; 
     color: red; 
 }
-.wins-text{
+#wins{
     font: bold; 
     font-size: 30px; 
+    color: black;
 
 }
+ #letterGuessed{
+   font: bold;
+   font-size: 30px;
+   color: black;
+ }
+.gameContain{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
 
-.losses-text{
+#losses{
     font: bold; 
     font-size: 30px; 
+    color: black;
 }
-.guesses-remaining{
+#guessesRemaining{
     font: bold; 
     font-size: 30px;
+    color: black;
+    border: 3px solid black;
 }
-
-/* .container{
-  margin: 0;
-} */
-.lead{
-  text-align: center;
-}
-
-/* Additional Screen Sizes */
-
-/* Width at 320px and below */
 @media screen and (max-width: 320px) {
     body {
       background-color: #333;

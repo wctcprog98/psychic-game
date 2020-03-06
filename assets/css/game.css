@@ -1,0 +1,12 @@
+#buttons{
+    text-align: center;
+    position: absolute; 
+    top: 600px;
+}
+
+#clear{
+    float: right;
+    position: absolute;
+    top: 600px;
+    left: 690px;
+}
