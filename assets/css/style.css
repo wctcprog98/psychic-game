@@ -16,6 +16,18 @@
 #gameDiv{
   margin-top: 100px;
 }
+
+.rules{
+  font-family: "Oswald", "sans-serif";
+  font-size: 20px; 
+  text-align: center;
+}
+
+.gameRules{
+  font-size: 60px;
+  font-family: "Oswald", "sans-serif";
+  text-align: center;
+}
 .highLow{
   font-size: 30px;
   text-transform: capitalize;
@@ -37,11 +49,12 @@
 }
 
 #start{
-  text-align: right;
-  background-color: blue;
+  
   margin-top: 20px;
+  width: 150px;
 
 }
+
 .card-title{
     text-align: justify; 
 }
@@ -54,7 +67,10 @@
     font: bold; 
     font-size: 30px; 
     color: black;
+}
 
+.winDiv{
+  margin-top: 25px;
 }
  #letterGuessed{
    font: bold;
@@ -72,11 +88,12 @@
     font-size: 30px; 
     color: black;
 }
+
+
 #guessesRemaining{
     font: bold; 
     font-size: 30px;
     color: black;
-    border: 3px solid black;
 }
 @media screen and (max-width: 320px) {
     body {

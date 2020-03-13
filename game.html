@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'> 
 
   <title>Document</title>
 </head>
@@ -25,7 +27,7 @@
     </div>
 
     <div class="gameContain">
-      <div class="row">
+      <div class="row" id="clearDiv">
         <div class="col-6">
           <p>Guesses Remaining: <span id="guessesRemaining"></span></p>
         </div>
@@ -33,25 +35,25 @@
           <p> You guessed: <span id="letterGuessed"></span></p>
         </div>
       </div>
-      <div class="row" id="gameDiv">
-        <div class="col-6">
-          <p>Wins: <span id="wins"></span></p>
-        </div>
-        <div class="col-6">
-          <p>Losses: <span id="losses"></span></p>
-        </div>
-      </div>
     </div>
 
     <div class="highLow"></div>
 
-    <div class="gameOver">
+   <div class="gameOver">
       <h1>GAME OVER!</h1>
       <button id="playAgain">Play Again</button>
     </div>
+
+    <div class="winDiv">
+      <h1 class="winner animated heartBeat">WINNER</h1>
+      <br>
+      <button id="play">Play Again</button>
+    </div> 
   </div>
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="assets/javascript/game.js"></script>
+  <script src="assets/javascript/game.js"></script>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
 
 </body>
 
