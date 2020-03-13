@@ -71,6 +71,9 @@
 
 .winDiv{
   margin-top: 25px;
+  text-align: center; 
+  font-size: 40px; 
+  color: green; 
 }
  #letterGuessed{
    font: bold;
